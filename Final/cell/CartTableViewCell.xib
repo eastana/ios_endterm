@@ -54,8 +54,9 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="priceLabel" destination="OaR-Tg-E09" id="1Ot-Yg-Sfm"/>
-                <outlet property="titleLabel" destination="H2p-sc-9uM" id="DNy-kS-ztf"/>
+                <outlet property="imageV" destination="l2x-bw-kFx" id="FM9-XK-V9Y"/>
+                <outlet property="priceLabel" destination="OaR-Tg-E09" id="MUF-WQ-0Kk"/>
+                <outlet property="titleLabel" destination="1SY-GL-PmG" id="Rzw-Le-dAO"/>
             </connections>
             <point key="canvasLocation" x="112" y="94"/>
         </tableViewCell>
