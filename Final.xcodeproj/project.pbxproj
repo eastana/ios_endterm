@@ -13,6 +13,17 @@
 		50AF891E25E6098B00D68459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AF891C25E6098B00D68459 /* Main.storyboard */; };
 		50AF892025E6099500D68459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AF891F25E6099500D68459 /* Assets.xcassets */; };
 		50AF892325E6099500D68459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AF892125E6099500D68459 /* LaunchScreen.storyboard */; };
+		50AF892D25E60CD000D68459 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF892C25E60CD000D68459 /* ProductViewController.swift */; };
+		50AF893125E60CE400D68459 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF893025E60CE400D68459 /* CartViewController.swift */; };
+		50AF893925E60D9C00D68459 /* CatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF893725E60D9C00D68459 /* CatalogueCollectionViewCell.swift */; };
+		50AF893A25E60D9C00D68459 /* CatalogueCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF893825E60D9C00D68459 /* CatalogueCollectionViewCell.xib */; };
+		50AF893F25E60DE200D68459 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF893E25E60DE200D68459 /* CatalogueViewController.swift */; };
+		50AF894325E60E2300D68459 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF894125E60E2300D68459 /* CartTableViewCell.swift */; };
+		50AF894425E60E2300D68459 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF894225E60E2300D68459 /* CartTableViewCell.xib */; };
+		50AF894725E60E5C00D68459 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF894625E60E5C00D68459 /* ProfileViewController.swift */; };
+		50AF894B25E6162800D68459 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF894925E6162800D68459 /* HistoryTableViewCell.swift */; };
+		50AF894C25E6162800D68459 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF894A25E6162800D68459 /* HistoryTableViewCell.xib */; };
+		50AF894F25E6180800D68459 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF894E25E6180800D68459 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		50AF891F25E6099500D68459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50AF892225E6099500D68459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50AF892425E6099500D68459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AF892C25E60CD000D68459 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		50AF893025E60CE400D68459 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		50AF893725E60D9C00D68459 /* CatalogueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueCollectionViewCell.swift; sourceTree = "<group>"; };
+		50AF893825E60D9C00D68459 /* CatalogueCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogueCollectionViewCell.xib; sourceTree = "<group>"; };
+		50AF893E25E60DE200D68459 /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
+		50AF894125E60E2300D68459 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		50AF894225E60E2300D68459 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		50AF894625E60E5C00D68459 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		50AF894925E6162800D68459 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		50AF894A25E6162800D68459 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		50AF894E25E6180800D68459 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,42 @@
 		50AF891525E6098B00D68459 /* Final */ = {
 			isa = PBXGroup;
 			children = (
+				50AF893625E60D3F00D68459 /* cell */,
+				50AF892B25E60CA000D68459 /* controllers */,
 				50AF891625E6098B00D68459 /* AppDelegate.swift */,
 				50AF891825E6098B00D68459 /* SceneDelegate.swift */,
-				50AF891A25E6098B00D68459 /* ViewController.swift */,
 				50AF891C25E6098B00D68459 /* Main.storyboard */,
 				50AF891F25E6099500D68459 /* Assets.xcassets */,
 				50AF892125E6099500D68459 /* LaunchScreen.storyboard */,
 				50AF892425E6099500D68459 /* Info.plist */,
 			);
 			path = Final;
+			sourceTree = "<group>";
+		};
+		50AF892B25E60CA000D68459 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50AF891A25E6098B00D68459 /* ViewController.swift */,
+				50AF892C25E60CD000D68459 /* ProductViewController.swift */,
+				50AF893025E60CE400D68459 /* CartViewController.swift */,
+				50AF893E25E60DE200D68459 /* CatalogueViewController.swift */,
+				50AF894625E60E5C00D68459 /* ProfileViewController.swift */,
+				50AF894E25E6180800D68459 /* HistoryViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		50AF893625E60D3F00D68459 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				50AF893725E60D9C00D68459 /* CatalogueCollectionViewCell.swift */,
+				50AF893825E60D9C00D68459 /* CatalogueCollectionViewCell.xib */,
+				50AF894125E60E2300D68459 /* CartTableViewCell.swift */,
+				50AF894225E60E2300D68459 /* CartTableViewCell.xib */,
+				50AF894925E6162800D68459 /* HistoryTableViewCell.swift */,
+				50AF894A25E6162800D68459 /* HistoryTableViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +173,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AF894425E60E2300D68459 /* CartTableViewCell.xib in Resources */,
+				50AF893A25E60D9C00D68459 /* CatalogueCollectionViewCell.xib in Resources */,
 				50AF892325E6099500D68459 /* LaunchScreen.storyboard in Resources */,
 				50AF892025E6099500D68459 /* Assets.xcassets in Resources */,
+				50AF894C25E6162800D68459 /* HistoryTableViewCell.xib in Resources */,
 				50AF891E25E6098B00D68459 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +191,15 @@
 			files = (
 				50AF891B25E6098B00D68459 /* ViewController.swift in Sources */,
 				50AF891725E6098B00D68459 /* AppDelegate.swift in Sources */,
+				50AF893125E60CE400D68459 /* CartViewController.swift in Sources */,
+				50AF892D25E60CD000D68459 /* ProductViewController.swift in Sources */,
+				50AF894B25E6162800D68459 /* HistoryTableViewCell.swift in Sources */,
+				50AF894F25E6180800D68459 /* HistoryViewController.swift in Sources */,
 				50AF891925E6098B00D68459 /* SceneDelegate.swift in Sources */,
+				50AF893F25E60DE200D68459 /* CatalogueViewController.swift in Sources */,
+				50AF894725E60E5C00D68459 /* ProfileViewController.swift in Sources */,
+				50AF893925E60D9C00D68459 /* CatalogueCollectionViewCell.swift in Sources */,
+				50AF894325E60E2300D68459 /* CartTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
