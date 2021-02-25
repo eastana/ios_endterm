@@ -25,6 +25,8 @@
 		50AF894C25E6162800D68459 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF894A25E6162800D68459 /* HistoryTableViewCell.xib */; };
 		50AF894F25E6180800D68459 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF894E25E6180800D68459 /* HistoryViewController.swift */; };
 		9523D65725E6B2860043E577 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523D65625E6B2860043E577 /* Product.swift */; };
+		EC223CE525E7F1F700CE729B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EC223CE425E7F1F700CE729B /* .gitignore */; };
+		EC223CE825E7F4AB00CE729B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC223CE725E7F4AB00CE729B /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		50AF894A25E6162800D68459 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 		50AF894E25E6180800D68459 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		9523D65625E6B2860043E577 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EC223CE425E7F1F700CE729B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EC223CE725E7F4AB00CE729B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		50AF890A25E6098B00D68459 = {
 			isa = PBXGroup;
 			children = (
+				EC223CE425E7F1F700CE729B /* .gitignore */,
 				50AF891525E6098B00D68459 /* Final */,
 				50AF891425E6098B00D68459 /* Products */,
 			);
@@ -102,6 +107,7 @@
 				50AF893E25E60DE200D68459 /* CatalogueViewController.swift */,
 				50AF894625E60E5C00D68459 /* ProfileViewController.swift */,
 				50AF894E25E6180800D68459 /* HistoryViewController.swift */,
+				EC223CE725E7F4AB00CE729B /* LoginController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -185,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AF894425E60E2300D68459 /* CartTableViewCell.xib in Resources */,
+				EC223CE525E7F1F700CE729B /* .gitignore in Resources */,
 				50AF893A25E60D9C00D68459 /* CatalogueCollectionViewCell.xib in Resources */,
 				50AF892325E6099500D68459 /* LaunchScreen.storyboard in Resources */,
 				50AF892025E6099500D68459 /* Assets.xcassets in Resources */,
@@ -203,6 +210,7 @@
 				50AF891B25E6098B00D68459 /* ViewController.swift in Sources */,
 				50AF891725E6098B00D68459 /* AppDelegate.swift in Sources */,
 				50AF893125E60CE400D68459 /* CartViewController.swift in Sources */,
+				EC223CE825E7F4AB00CE729B /* LoginController.swift in Sources */,
 				50AF892D25E60CD000D68459 /* ProductViewController.swift in Sources */,
 				50AF894B25E6162800D68459 /* HistoryTableViewCell.swift in Sources */,
 				9523D65725E6B2860043E577 /* Product.swift in Sources */,
