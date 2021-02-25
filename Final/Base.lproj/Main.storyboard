@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m8Q-aI-ujy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m8Q-aI-ujy">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -18,77 +18,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSq-2T-79e">
-                                <rect key="frame" x="0.0" y="246" width="414" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93511004956612931" green="1" blue="0.98530765041282509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
-                                <color key="tintColor" red="0.6788993305051424" green="0.88126586294416243" blue="0.71562341863939449" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="catalogue"/>
-                                <connections>
-                                    <action selector="tapToCatalogueBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ndJ-Ho-Z7W"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX9-5b-mR8">
-                                <rect key="frame" x="0.0" y="404" width="414" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96235695164613411" green="0.92873724745842456" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
-                                <color key="tintColor" red="0.65496010763104606" green="0.6306023345835462" blue="0.67689165609137059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="cart"/>
-                                <connections>
-                                    <action selector="tapToCartBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWw-y7-9nP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-p8-0GM">
-                                <rect key="frame" x="0.0" y="88" width="414" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.86606663309373444" blue="0.91714996775449953" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
-                                <color key="tintColor" red="0.80157439720812185" green="0.59756011301165479" blue="0.67663329951443496" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="history"/>
-                                <connections>
-                                    <action selector="tapToHistoryBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQY-dw-su3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tD8-6M-lUN">
-                                <rect key="frame" x="0.0" y="562" width="414" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.96840742774552158" blue="0.91459493401162162" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
-                                <color key="tintColor" red="0.85070986675126903" green="0.80620364650799481" blue="0.690374428603584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="profile"/>
-                                <connections>
-                                    <action selector="tapToProfileBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OEh-aB-tfU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvj-va-Qb6">
-                                <rect key="frame" x="0.0" y="720" width="414" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.91319092107393485" blue="0.87776114426428264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
-                                <color key="tintColor" red="0.76463356598984777" green="0.61290046452978408" blue="0.56626376042868565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="product"/>
-                                <connections>
-                                    <action selector="tapToProductBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NR4-73-lZ9"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="V9E-gZ-p4z">
+                                <rect key="frame" x="0.0" y="62" width="414" height="800"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-p8-0GM">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                        <color key="backgroundColor" red="1" green="0.86606663309373444" blue="0.91714996775449953" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="Ymj-K6-2CG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
+                                        <color key="tintColor" red="0.80157439720812185" green="0.59756011301165479" blue="0.67663329951443496" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="history"/>
+                                        <connections>
+                                            <action selector="tapToHistoryBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hQY-dw-su3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSq-2T-79e">
+                                        <rect key="frame" x="0.0" y="200" width="414" height="200"/>
+                                        <color key="backgroundColor" red="0.93511004956612931" green="1" blue="0.98530765041282509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="mlc-vr-Jaf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
+                                        <color key="tintColor" red="0.6788993305051424" green="0.88126586294416243" blue="0.71562341863939449" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="catalogue"/>
+                                        <connections>
+                                            <action selector="tapToCatalogueBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ndJ-Ho-Z7W"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX9-5b-mR8">
+                                        <rect key="frame" x="0.0" y="400" width="414" height="200"/>
+                                        <color key="backgroundColor" red="0.96235695164613411" green="0.92873724745842456" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="5B6-Xm-oZ6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
+                                        <color key="tintColor" red="0.65496010763104606" green="0.6306023345835462" blue="0.67689165609137059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="cart"/>
+                                        <connections>
+                                            <action selector="tapToCartBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWw-y7-9nP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tD8-6M-lUN">
+                                        <rect key="frame" x="0.0" y="600" width="414" height="200"/>
+                                        <color key="backgroundColor" red="1" green="0.96840742774552158" blue="0.91459493401162162" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="LWI-pu-Bti"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="25"/>
+                                        <color key="tintColor" red="0.85070986675126903" green="0.80620364650799481" blue="0.690374428603584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="profile"/>
+                                        <connections>
+                                            <action selector="tapToProfileBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OEh-aB-tfU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="V9E-gZ-p4z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BML-fE-9pu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V9E-gZ-p4z" secondAttribute="bottom" id="EeQ-wo-YKq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V9E-gZ-p4z" secondAttribute="trailing" id="Qj9-8T-IJM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Wdf-cq-pOp"/>
                     <connections>
                         <outlet property="cartBtn" destination="bX9-5b-mR8" id="ai6-WB-TAg"/>
                         <outlet property="catalogueBtn" destination="DSq-2T-79e" id="JBm-ZC-AWZ"/>
                         <outlet property="historyBtn" destination="ceJ-p8-0GM" id="rWx-Py-rhd"/>
-                        <outlet property="productBtn" destination="Jvj-va-Qb6" id="ToJ-9Q-can"/>
                         <outlet property="profileBtn" destination="tD8-6M-lUN" id="vAS-j3-6zG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4109" y="-756"/>
+            <point key="canvasLocation" x="4108.695652173913" y="-756.02678571428567"/>
         </scene>
         <!--Product View Controller-->
         <scene sceneID="nvp-LP-6Sm">
@@ -101,7 +107,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uiT-Kk-MpK">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account" translatesAutoresizingMaskIntoConstraints="NO" id="9gw-4v-qeH">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9gw-4v-qeH">
                                         <rect key="frame" x="10" y="10" width="394" height="380"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="380" id="jHW-4I-C3r"/>
@@ -224,6 +230,9 @@
                                         <state key="normal" title="Buy" image="creditcard" catalog="system">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buy:" destination="QUc-q9-dqz" eventType="touchUpInside" id="PHS-gb-1U8"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYp-xq-Gqp">
                                         <rect key="frame" x="10" y="557" width="46" height="20.5"/>
@@ -290,7 +299,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YlN-XD-0nX">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account" translatesAutoresizingMaskIntoConstraints="NO" id="obt-Y6-DXG">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="obt-Y6-DXG">
                                         <rect key="frame" x="92" y="20" width="230" height="230"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="230" id="C7y-74-5sZ"/>
@@ -330,6 +339,9 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" red="0.67566317679999999" green="0.75796277140000001" blue="1" alpha="0.89091930649999995" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="historyBtn:" destination="bPN-UG-TdI" eventType="touchUpInside" id="WnF-bn-DVx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUN-2D-zZ1">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="70"/>
@@ -343,6 +355,9 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="titleShadowColor" red="0.67566317679999999" green="0.75796277140000001" blue="1" alpha="0.89091930649999995" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="cartBtn:" destination="bPN-UG-TdI" eventType="touchUpInside" id="amU-x1-wJ9"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -374,9 +389,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="NGe-f7-gDp"/>
                     <connections>
-                        <outlet property="cardLabel" destination="5OL-TW-q1f" id="mtQ-iD-Gk6"/>
+                        <outlet property="cardLabel" destination="6PH-Ke-Ida" id="G1K-XA-4XF"/>
                         <outlet property="emailLabel" destination="iYi-8c-T1c" id="xnm-v7-ybu"/>
-                        <outlet property="imageView" destination="obt-Y6-DXG" id="0OY-7g-Pst"/>
+                        <outlet property="imageView" destination="obt-Y6-DXG" id="6Vr-sq-d0j"/>
                         <outlet property="usernameLabel" destination="Al7-vF-XKT" id="h1t-w6-4ig"/>
                     </connections>
                 </viewController>
@@ -596,10 +611,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="account" width="540" height="540"/>
         <image name="cart.circle.fill" catalog="system" width="128" height="121"/>
         <image name="creditcard" catalog="system" width="128" height="88"/>
         <image name="list.bullet.rectangle" catalog="system" width="128" height="93"/>
+        <image name="user" width="256" height="256"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

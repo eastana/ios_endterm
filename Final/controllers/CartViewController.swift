@@ -26,6 +26,12 @@ class CartViewController: UIViewController {
         }
         totalLabel.text = "\(sumTotal) $"
     }
+    @IBAction func buy(_ sender: Any) {
+        let vc = self.navigationController?.viewControllers.filter({$0 is ViewController}).first
+        HistoryViewController.historyArr += CartViewController.cartArr
+        CartViewController.cartArr.removeAll()
+        navigationController?.popToViewController(vc!, animated: true)
+    }
 }
  extension CartViewController: UITableViewDelegate, UITableViewDataSource{
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
