@@ -32,7 +32,7 @@ class LoginController: UIViewController {
     @IBAction func pressLogin(_ sender: Any) {
         if usernameField.text == "Test" && passwordField.text == "Test" {
             let vcProd=storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-            
+            ProfileViewController.profileArr.append(User(username: "Test", email: "Test@astanait.edu.kz", card: "4455 0099 4455 6655"))
            
             navigationController?.pushViewController(vcProd, animated: true)
         }

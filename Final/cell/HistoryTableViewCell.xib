@@ -21,14 +21,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEB-X8-kLX">
-                        <rect key="frame" x="120" y="49" width="31" height="15"/>
+                        <rect key="frame" x="120" y="49" width="237" height="15"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXy-3L-a3n">
-                        <rect key="frame" x="120" y="18" width="36" height="17"/>
+                        <rect key="frame" x="120" y="18" width="237" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
@@ -37,7 +37,12 @@
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="139" y="94"/>
+            <connections>
+                <outlet property="imageV" destination="Ya2-mL-IcW" id="XEq-YK-omj"/>
+                <outlet property="priceLabel" destination="mEB-X8-kLX" id="8Yi-WG-ffi"/>
+                <outlet property="titleLabel" destination="QXy-3L-a3n" id="wCo-Dq-nLV"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="93.415178571428569"/>
         </tableViewCell>
     </objects>
     <resources>
