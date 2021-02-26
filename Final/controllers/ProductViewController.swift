@@ -15,15 +15,10 @@ class ProductViewController: UIViewController {
     var priceNum: String!
     var descStr: String!
     override func viewDidLoad() {
-        super.viewDidLoad()
-        self.styleForImage()
+        super.viewDidLoad() 
         self.setProduct()
     }
-    
-    func styleForImage() {
-        imageView.clipsToBounds = true
-        imageView.layer.cornerRadius = imageView.frame.size.height / 2
-    }
+     
     
     func setProduct(){
         imageView.image = UIImage(named: imageStr)
