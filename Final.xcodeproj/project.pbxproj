@@ -117,14 +117,38 @@
 		50AF893625E60D3F00D68459 /* cell */ = {
 			isa = PBXGroup;
 			children = (
+				950BBB0C25E8D20D00C61BE4 /* historyCell */,
+				950BBB0B25E8D20000C61BE4 /* cartCell */,
+				950BBB0A25E8D1EF00C61BE4 /* catalogueCell */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		950BBB0A25E8D1EF00C61BE4 /* catalogueCell */ = {
+			isa = PBXGroup;
+			children = (
 				50AF893725E60D9C00D68459 /* CatalogueCollectionViewCell.swift */,
 				50AF893825E60D9C00D68459 /* CatalogueCollectionViewCell.xib */,
+			);
+			path = catalogueCell;
+			sourceTree = "<group>";
+		};
+		950BBB0B25E8D20000C61BE4 /* cartCell */ = {
+			isa = PBXGroup;
+			children = (
 				50AF894125E60E2300D68459 /* CartTableViewCell.swift */,
 				50AF894225E60E2300D68459 /* CartTableViewCell.xib */,
+			);
+			path = cartCell;
+			sourceTree = "<group>";
+		};
+		950BBB0C25E8D20D00C61BE4 /* historyCell */ = {
+			isa = PBXGroup;
+			children = (
 				50AF894925E6162800D68459 /* HistoryTableViewCell.swift */,
 				50AF894A25E6162800D68459 /* HistoryTableViewCell.xib */,
 			);
-			path = cell;
+			path = historyCell;
 			sourceTree = "<group>";
 		};
 		9523D65525E6B2750043E577 /* models */ = {
@@ -373,6 +397,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FWGPV25T8;
 				INFOPLIST_FILE = Final/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,6 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FWGPV25T8;
 				INFOPLIST_FILE = Final/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
